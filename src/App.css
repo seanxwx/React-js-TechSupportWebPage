@@ -1,0 +1,136 @@
+/*background - image-*/
+.App_background{
+  background-image: url("../src/homebackground2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:fixed;
+  height:100vh;
+  top:0;
+  bottom:0;
+  width:100vw;
+  overflow: auto;
+}
+/*background - darken*/
+.App_darken {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0,0,0,0.2);
+}
+.App{
+  position:absolute;
+  top:0;
+  bottom:0;
+  height:100%;
+  width:100%;
+  color:white;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+
+/*logo image and animation*/
+.App-rmit-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 150px;
+  width: 150px;
+
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(720deg); }
+}
+
+
+/*helpdesk user button*/
+.btn-primary{
+  font-size:20px;
+  width:150px;
+  height:60px;
+  border-radius:40px;
+}
+
+/*Tech user button*/
+.btn-success{
+  font-size:20px;
+  width:150px;
+  height:60px;
+  border-radius:40px;
+}
+
+
+/*editor*/
+.demo-editor {
+    background: white;
+    height: 200px!important;
+    color: black;
+}
+.rdw-dropdownoption-default {
+    color: black;
+}
+
+
+/*home page*/
+.navbar-inverse{
+  background: #dc102d;
+  opacity: 0.9;
+}
+.rmit_home{
+  display: block;
+  margin:auto;
+  align: center;
+}
+
+
+/*helpdesk user page*/
+.jumbotron{
+  background-color: rgb(43, 32, 32);
+  opacity: 0.86;
+  color: white;
+}
+
+.Jumbo{
+  font-family: "Trebuchet MS";
+  color: white;
+}
+
+.Jumbo > h1{
+  font-weight: bolder;
+  font-family: "Trebuchet MS";
+  font-style: italic;
+}
+.jumbotron > h4{
+  font-family: "Trebuchet MS";
+}
+.jumbotron > h3{
+  font-family: "Trebuchet MS";
+}
+.col-md-12 > h1{
+  font-family: "Trebuchet MS";
+}
+.table-hover{
+  font-family: "Trebuchet MS";
+}
+
+
+/*navbar (Ticket System & Signout)*/
+.navbar-brand{
+  font-family: "Trebuchet MS";
+  font-size:30px;
+  margin:auto;
+  align:left;
+}
+
+.navbar-right{
+  font-family: "Trebuchet MS";
+  font-size:30px;
+}
+
+
+/*footer*/
+.footer{
+  margin-top: 200px;
+  font-family: "Trebuchet MS";
+  font-weight: bolder;
+  font-size: 15px;
+}
